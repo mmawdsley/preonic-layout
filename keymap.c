@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [1] = LAYOUT_preonic_grid(
-    UK_TILD, _______, _______, _______, KC_DLR,  _______, _______, UK_LCBR, UK_RCBR, _______, _______, _______,
+    UK_TILD, _______, _______, _______, KC_DLR,  _______, _______, _______, _______, _______, _______, _______,
     _______, KC_PGUP, KC_UP,   KC_PGDN, KC_HOME, _______, UK_BSLS, UK_LCBR, UK_RCBR, UK_LBRC, UK_RBRC, _______,
     _______, KC_LEFT, KC_DOWN, KC_RGHT, KC_END,  _______, UK_PIPE, UK_LPRN, UK_RPRN, UK_EQL,  UK_PLUS, _______,
     _______, _______, _______, _______, _______, _______, UK_HASH, UK_UNDS, UK_MINS, KC_LABK, KC_RABK, _______,
