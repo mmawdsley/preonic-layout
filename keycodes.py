@@ -102,6 +102,7 @@ KEYCODES = {
     'UK_DOT': '.',
     'UK_SLSH': '/',
     'TD(TD_CAPS)': 'Capslock',
+    'KC_CAPS': 'Capslock',
     'KC_F1': 'F1',
     'KC_F2': 'F2',
     'KC_F3': 'F3',
