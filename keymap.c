@@ -18,10 +18,6 @@
 #include "muse.h"
 #include "keymap_uk.h"
 
-enum {
-    TD_CAPS
-};
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* Qwerty
@@ -42,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,        UK_Q,    UK_W,    UK_E,    UK_R,  UK_T,   UK_Y,   UK_U,  UK_I,    UK_O,    UK_P,    KC_DEL,
     CTL_T(KC_ESC), UK_A,    UK_S,    UK_D,    UK_F,  UK_G,   UK_H,   UK_J,  UK_K,    UK_L,    UK_SCLN, UK_QUOT,
     KC_LSFT,       UK_Z,    UK_X,    UK_C,    UK_V,  UK_B,   UK_N,   UK_M,  UK_COMM, UK_DOT,  UK_SLSH, KC_RSFT,
-    TD(TD_CAPS),   KC_LGUI, KC_LCTL, KC_LALT, MO(1), KC_SPC, KC_SPC, MO(2), KC_RALT, KC_RCTL, KC_RGUI, KC_ENT
+    KC_CAPS,       KC_LGUI, KC_LCTL, KC_LALT, MO(1), KC_SPC, KC_SPC, MO(2), KC_RALT, KC_RCTL, KC_RGUI, KC_ENT
 ),
 
 /* Lower
@@ -131,11 +127,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 )
 
 
-};
-
-qk_tap_dance_action_t tap_dance_actions[] = {
-    // Tap once for nothing, twice for Caps Lock
-    [TD_CAPS] = ACTION_TAP_DANCE_DOUBLE(KC_NO, KC_CAPS)
 };
 
 void keyboard_post_init_user(void) {
