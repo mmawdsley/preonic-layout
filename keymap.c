@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,        UK_Q,    UK_W,    UK_E,    UK_R,  UK_T,   UK_Y,   UK_U,  UK_I,    UK_O,    UK_P,    UK_BSLS,
     CTL_T(KC_ESC), UK_A,    UK_S,    UK_D,    UK_F,  UK_G,   UK_H,   UK_J,  UK_K,    UK_L,    UK_SCLN, UK_QUOT,
     KC_LSFT,       UK_Z,    UK_X,    UK_C,    UK_V,  UK_B,   UK_N,   UK_M,  UK_COMM, UK_DOT,  UK_SLSH, KC_RSFT,
-    KC_LGUI,       KC_LCTL, KC_LALT, MO(1),   KC_ENT, KC_ENT,KC_SPC,KC_SPC, MO(2),   KC_RALT, KC_RCTL, KC_RGUI
+    KC_CAPS,       KC_LGUI, KC_LCTL, KC_LALT, MO(1), KC_SPC, KC_SPC, MO(2), KC_RALT, KC_RCTL, KC_RGUI, KC_ENT
 ),
 
 /* Lower
@@ -59,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, UK_1,    UK_2,    UK_3,    UK_4,    UK_5,    UK_6,    UK_7,    UK_8,    UK_9,    UK_0,    _______,
     _______, _______, _______, UK_LBRC, UK_RBRC, _______, UK_PLUS, UK_LPRN, UK_RPRN, UK_EQL,  _______, _______,
     _______, _______, _______, _______, _______, _______, UK_UNDS, UK_MINS, _______, _______, _______, _______,
-    MO(4),   _______, _______, MO(3),   _______, _______, _______, _______, MO(3),   _______, _______, _______
+    MO(4),   _______, _______, _______, MO(3),   _______, _______, MO(3),   _______, _______, _______, _______
 ),
 
 /* Raise
@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______, KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_INS,  KC_HOME, KC_PGUP, _______, _______,
     _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, _______, _______,
     _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______, _______,
-    _______, _______, _______, MO(3),   _______, _______, _______, _______, MO(3),   _______, _______, _______
+    _______, _______, _______, _______, MO(3),   _______, _______, MO(3),   _______, _______, _______, _______
 ),
 
 /* Both (Lower + Raise)
